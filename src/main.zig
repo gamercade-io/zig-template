@@ -9,7 +9,7 @@ export fn init() void {
     gc.consoleLog("Hello, from Zig!");
 
     xPos = @intCast(i32, gc.width() / 2);
-    yPos = @intCast(i32, gc.width() / 2);
+    yPos = @intCast(i32, gc.height() / 2);
 }
 
 // Called once every frame, before draw.
